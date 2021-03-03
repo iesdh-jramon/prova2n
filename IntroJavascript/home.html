@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="myScript.js"></script>
+    </head>
+<body>
+
+<h2 id="Titol1">What Can JavaScript Do?</h2>
+
+<p id="Titol2">JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="encendre()">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="apagar()">Turn off the light</button>
+
+<div>
+    <button onclick="traduirCat()">Traduir al català</button>
+</div>
+
+<div>
+    <form>
+        <label>Número1</label><br>
+        <input type="number" id="num1"><br>
+        <label>Número2</label><br>
+        <input type="number" id="num2" placeholder="Introdueix un número">
+      </form>
+
+<button onclick="calcular()"> + </button>
+<button onclick="restar()"> - </button>
+<button onclick="multiplicar()"> * </button>
+<button onclick="dividir()"> / </button>
+
+<h1 id="resultat">No hi ha resultat</h1>
+
+</div>
+
+</body>
+</html>
